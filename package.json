@@ -7,22 +7,31 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "lint:fsd": "npx steiger ./src",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mantine/core": "^8.3.7",
+    "@mantine/hooks": "^8.3.7",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "@feature-sliced/steiger-plugin": "^0.5.7",
     "@types/node": "^24.10.0",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "@vitejs/plugin-react": "^5.1.0",
     "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
+    "prettier": "^3.6.2",
+    "steiger": "^0.5.11",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.3",
     "vite": "npm:rolldown-vite@7.2.2"
